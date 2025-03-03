@@ -1,0 +1,42 @@
+.h1 {
+    color:#000;
+}
+.h1 span{
+    color: #037bc0;
+}
+
+.navegacion{
+
+}
+
+.enlace{
+    text-transform: uppercase;
+}
+
+.color-rojo{
+    color: red;
+}
+
+/* hay 3 formas mas comunes de escribir codigo css
+Modulos , BEM , SMACSS */
+
+
+
+/* LOS MODULOS SE USAN HACIENDO 
+UNA CLASE ETIQUETA  
+
+EJEMPLO
+
+.MICLASE{
+    PARAMETROS
+}
+
+.MICLASE ETIQUETA_A{
+    PARAMETROS
+}
+
+. MICLASE ETIQUETA_A ETIQUETA_B
+
+
+
+*/

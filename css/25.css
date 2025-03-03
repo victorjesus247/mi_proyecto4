@@ -1,0 +1,61 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* globales */
+
+a{
+    text-decoration: none; /*eliminamos la decoracion del enlace*/
+    color: black;
+}
+
+
+/* Header y Navegacion */
+
+
+
+.sobre-nosotros{
+      background-color: red;
+      width: 200px;
+      padding: 25px;
+      margin-top: 20px;
+}
+
+
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    text-align: center;
+}
+
+.nombre-sitio span{
+    color: aqua;
+  }
+
+.navegacion-principal{
+    
+    border-color: #e1e1e1;    /*color del borde */
+    padding: 10px;      /*relleno*/
+    border-top-style: solid;/*para poner la linea del borde solo arriba en un color solido*/
+    border-width: 1px;    /*para el grosor del borde*/ 
+    
+    /*esto es lo mismo que lo de arriba*/
+    /* border-top: 1px solid #e1e1e1; */
+
+    /*propiedad     top   rigth    buttom   left*/
+    /* margin: 0px 0px 0px 0px; */
+}
+
+
+/*hay una forma de escribir las medidas de los paddings y los margins en la direccion de las agujas del relog*/
+
+/*tambien hay un atajo para los bordes*/
+
+
+
+
+
+

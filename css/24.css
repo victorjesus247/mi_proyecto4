@@ -1,0 +1,56 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+
+
+  .sobre-nosotros{
+      background-color: red;
+      width: 200px;
+      padding: 25px;
+      margin-top: 20px;
+
+  }
+  
+
+  .sobre-empresa{
+      width: 500px;
+      padding: 100px;
+
+  }
+
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+
+}
+
+.nombre-sitio span{
+    color: aqua;
+  }
+
+  /* los displays */
+
+
+
+ p{
+    background-color: red;
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+} 
+
+/* conclusion:
+inline : se coloca uno a la derecha del otro una vez que haya tomado todo el espacio que requiere
+         no es posible usar width ni height
+
+inline-block : se colocan como bloques a la derecha y puedes ponerle witdh y height 
+
+block : solo se colocan hacia abajo y tambien puedes ponerle heigth y el width
+
+*/

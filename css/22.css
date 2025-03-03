@@ -1,0 +1,59 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+/* se lo aplica a tooodos los 
+elementos  */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+/* diferencia entre padding y margin  */
+  /* padding (relleno) es desde las orillas
+  del elemento haci adentro 
+  
+  margin (margen) es desde las orillas del 
+  elemento hacia afuera*/
+
+
+  .sobre-nosotros{
+      background-color: red;
+      width: 200px;
+      padding: 25px;
+      margin-top: 20px;
+
+  }
+  
+
+  /*  claro que se puede obtener 1 mismo 
+  resultado al usar las 2 , es el ejemplo de arriba
+  se ve porque tiene un background de color 
+  pero si fuera transparente no se notara la 
+  diferencia cuando el color de fondo no es 
+  importante cualquiera de los 2 esta bien que utilices
+  */
+  .sobre-empresa{
+      width: 500px;
+      padding: 100px;
+
+  }
+
+.nombre-sitio{
+    /* padding: 100px;
+    margin: 100px; */
+
+}
+
+/* si pusieramos los atributos de la clase de 
+arriba qui , entonces se aplicarian solo al 
+span (palabra muebles) no al h1 (palabra tienda) */
+.nombre-sitio span{
+    color: aqua;
+  }
+
+
+  /*  conclusion 
+  si tienes un background y quieres separar el texto de los bordes
+  usa padding porque separias desde el borde hacia adentro no hacia afuera
+  hacia afuera es con margin hacia adentro es con padding
+  */

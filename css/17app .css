@@ -1,0 +1,21 @@
+/*h1 {
+    
+     EL 4TO VALOR DEL RGB ES LA A : RGBA , ESTE 4TO VALOR CORRESPONDE A LA TRANSPARENCIA Y VA DEL 0 AL 1 
+    color: rgb(25, 25, 25 , 0.1);
+}
+*/
+
+/* span{
+    color: #037bc0;
+} */
+
+/* imagina si tenemos 2 span en 2 diferentes textos el color cambiaria a los 2 y seira el mismo color 
+esto seria un problema que se resuelve con la especifidad que ayuda a identiicar cual elemento en especifico modificar */
+
+h1 span{
+    color: #037bc0;
+}
+
+h2 span{
+    color: green;
+}

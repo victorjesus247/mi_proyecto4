@@ -1,0 +1,86 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+
+/* globales */
+
+a{
+    text-decoration: none; /*eliminamos la decoracion del enlace*/
+    color: black;
+}
+
+
+/* Header y Navegacion */
+
+
+
+.sobre-nosotros{
+      background-color: red;
+      width: 200px;
+      padding: 25px;
+      margin-top: 20px;
+}
+
+
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    text-align: center;
+}
+
+.nombre-sitio span{
+    color: aqua;
+  }
+
+.navegacion-principal{
+    
+    border-color: #e1e1e1;    /*color del borde */
+    padding: 10px;      /*relleno*/
+    border-top-style: solid;/*para poner la linea del borde solo arriba en un color solido*/
+    border-width: 1px;    /*para el grosor del borde*/ 
+
+}
+
+/*  vamos a colocar una imagen como background esto se le conoce como hero */
+
+.hero{
+    /*recuerda hay que salirse de la hoja de estilos y encontrar la direccion adecuada de la imagen*/
+    background-image:url(../Imagenes-Ecommerce/principal.jpg) ;/*para agregar una imagen de fondo*/
+    /*hasta ahora ya hemos asignado una imagen para nuestro div pero aun no se muestra
+    para que se nos muestre es necesario que haya un contenido o unas dimensiones*/
+
+
+    height: 550px;/*ahora con esto ya se nos mostrara la imagen de fondo porque ya tiene
+                    unas medidas con la cual mostrarse*/
+
+    background-repeat: no-repeat;       /*para que no se nos repita la imagen*/
+
+    background-size: cover; /*para que no se ocrte y CUBRA todo el ancho*/
+
+    /* DUDA es importante porque los elementos HTML, como un div, tienen dimensiones por defecto solo si contienen algo dentro de ellos, como texto o hijos. Si un elemento no tiene contenido ni dimensiones explícitas, no ocupará espacio en la página, por lo que no se verá nada, ni siquiera una imagen de fondo.
+
+    Cuando defines una imagen de fondo usando CSS, la imagen necesita un área en la cual mostrarse. Si el elemento div no tiene dimensiones, no hay espacio para que la imagen se vea.
+
+    Piensa en ello como un marco vacío en la pared. Si el marco no tiene tamaño, no podrás ponerle una foto. Al darle dimensiones al div, creas ese "marco" en el cual la imagen puede mostrarse */
+}
+
+.contenedor{
+    max-width: 1200px;          /*esto va a cortar el border y llega a los 1200 px es decir corta la linea de la barra de navegacion*/
+
+    /*ahora necesitamos centrar nuestro contenido asi que podemos hacerlo con lso margenes*/
+    margin: 0 auto; /*de esta forma tanto arriba como abajo el margen es 0 pero a los lados el margen esta automatico esto es para centrar */
+
+    /*0 auto significa arriba y abajo no le des marge , a los lados toma los 1200px y 
+    lo que sobre dejalo centrado El margen auto ajustará automáticamente el contenedor al centro del espacio disponible*/
+}
+
+
+
+
+

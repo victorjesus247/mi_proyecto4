@@ -1,0 +1,90 @@
+ /*h1 {
+    
+     EL 4TO VALOR DEL RGB ES LA A : RGBA , ESTE 4TO VALOR CORRESPONDE A LA TRANSPARENCIA Y VA DEL 0 AL 1 
+    color: rgb(25, 25, 25 , 0.1);
+}
+*/
+
+/* span{
+    color: #037bc0;
+} */
+
+/* imagina si tenemos 2 span en 2 diferentes textos el color cambiaria a los 2 y seira el mismo color 
+esto seria un problema que se resuelve con la especifidad que ayuda a identiicar cual elemento en especifico modificar */
+h1{
+    color: #000000;
+}
+
+h1 span{
+    color: #037bc0;
+}
+
+h2 span{
+    color: green;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+/* para crear una class ponemos un punto 
+seguido del nombre de la clase
+
+.navegacion {
+
+}
+*/
+
+
+/* si queremos seleccionarlo con todo y esa etiqueta 
+podemos hacerlo 
+
+es decir 
+elemento.clase{}
+
+es igual a 
+
+.clase{}  si se lo aplicamos a elemento
+
+
+una vez creada la clase lo que le sigue
+es el elemento al que se lo queremos 
+aplicar , en este caso es un ancla (link)
+asi que especificamos a quien se lo queremos
+aplicar
+
+*/
+
+nav.navegacion a{
+    text-transform: lowercase;
+}
+
+/*  va a ir como en una cascada 
+recorriendo y buscando elementos 
+
+por ejemplo si  tenemos un
+div>h3>nav>a podemos hacer una clase para
+el div y que solo se le aplique a las a
+
+entonces los cambios de la clase creada
+no los tendra el h3 sino las a que esten 
+dentro de un div con la clase navegacion*/
+div.navegacion1 a{
+    text-transform: lowercase;
+}
+
+
+/* si colocamos un espacio 
+elemento .clase 
+
+ya nos refeririamos a otro elemento*/
+
+/* cuando usamos clases ponemos un punto */
+.clase{
+
+}
+
+/*  si usamos id's ponemos un # */
+#nombreId{
+    
+}

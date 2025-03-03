@@ -1,0 +1,359 @@
+<!-- en css podemos definir colores en base a su nombre pero se ven muy primarios pero tambien lo puedes hacer 
+ mediante un valor hexadecimal , RGB , HSL
+ 
+ tambien puedes añadir transparencia con RGBA()  Y HSLA() y recientemente es posible hacerlo por medio de RGB y HSL
+ -->
+ <!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Home</title>
+    <link rel="stylesheet" href="css/20.css">
+
+
+
+</head>
+<body>
+    <!-- header no es lo mismo que head , este header es la cabecera del body -->
+    <header>
+        <!-- span es el elemento mejor seleccionado para cuando quieras modificar un elemento via css -->
+        <h1 >Tienda <span>Muebles</span></h1>
+    </header>
+
+    <!--  si queremos ir diseñando por modulos , podemos ir en cascada 
+    1ro hacemos una clase .navegacion que va a estar aplicada  a todo el 
+    elemento nav (OJO no se lo va aplicar a lo que este dentro sino solo 
+    a lo que tenga esa clase en este caso el nav)
+    
+    si quisieramos aplicarselo a los elementos  anclas (a) pudieramos 
+    crear otra clase llamada .enlace y aplicarsela a cada elemento ancla(a)
+
+    o tambien la misma clase navegacion asignarle un a (ancla) 
+    
+    pero preferiblemente 
+    se crea otra clase en este caso enlace es mejor ya que asi es mas especifico-->
+    
+    <!-- pudieramos crear otra clase llamada color rojo y asi en cascada
+     ir dandole mas estilos con la clase a un ancla -->
+
+
+
+    <nav class="navegacion">
+        <a class="enlace" href="#">Inicio</a>
+        <a class="enlace color-rojo"href="#">Nosotros</a>
+        <a class="enlace"href="#">Tienda</a>
+        <a class="enlace"href="#">Blog</a>
+        <a class="enlace"href="#">Galeria</a> 
+        <a class="enlace"href="#">Contacto</a>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- section es para separar las diferentes secciones del HTML-->
+
+    <section>
+        <h2>Categoria de <span>productos</span></h2>
+            <div>
+                <img src="Imagenes-Ecommerce/categoria1.jpg" alt="">
+                <a href="#">Oficina</a>
+            </div>
+            <div>
+                <img src="Imagenes-Ecommerce/categoria2.jpg" alt="">
+                <a href="#">Hogar</a>
+            </div>
+            <div>
+                <img src="Imagenes-Ecommerce/categoria3.jpg" alt="">
+                <a href="#">Cocina</a>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- en la pagina viene otra seccion "sobre nosotros" porque hay un cambio de tema-->
+    <section>
+        <div>
+            <h2>Sobre Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti earum itaque quis modi animi, natus minus voluptate sapiente consequatur quidem facere cumque quasi esse amet molestiae distinctio deserunt dolore aspernatur.</p>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <main>
+        <h3>Nuestros productos</h3>   
+        <div><!--este div es donde estaran todos los productos  -->
+            <div>   <!--este div es donde estara cada producto  -->
+                <img src="Imagenes-Ecommerce/producto1.jpg" alt="imagen producto">
+                <div>
+                    <!-- contenido del producto-->
+                    <h3>Producto 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita nesciunt quis, animi fugiat quas culpa, suscipit fugit recusandae asperiores quae. Non autem rem excepturi voluptatem ullam, aspernatur cum praesentium!</p>
+                    <p>$ 1000 </p>
+                    <a href="#">Agregar al carrito</a>
+                </div><!--info del producto-->
+            </div><!--producto-->          
+            <div>   <!--este div es donde estara cada producto  -->
+                <img src="Imagenes-Ecommerce/producto2.jpg" alt="imagen producto">
+                <div>
+                    <!-- contenido del producto-->
+                    <h3>Producto 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita nesciunt quis, animi fugiat quas culpa, suscipit fugit recusandae asperiores quae. Non autem rem excepturi voluptatem ullam, aspernatur cum praesentium!</p>
+                    <p>$ 1000 </p>
+                    <a href="#">Agregar al carrito</a>
+                </div><!--info del producto-->
+            </div><!--producto-->          
+            <div>   <!--este div es donde estara cada producto  -->
+                <img src="Imagenes-Ecommerce/producto3.jpg" alt="imagen producto">
+                <div>
+                    <!-- contenido del producto-->
+                    <h3>Producto 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita nesciunt quis, animi fugiat quas culpa, suscipit fugit recusandae asperiores quae. Non autem rem excepturi voluptatem ullam, aspernatur cum praesentium!</p>
+                    <p>$ 1000 </p>
+                    <a href="#">Agregar al carrito</a>
+                </div><!--info del producto-->
+            </div><!--producto-->          
+            <div>   <!--este div es donde estara cada producto  -->
+                <img src="Imagenes-Ecommerce/producto4.jpg" alt="imagen producto">
+                <div>
+                    <!-- contenido del producto-->
+                    <h3>Producto 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita nesciunt quis, animi fugiat quas culpa, suscipit fugit recusandae asperiores quae. Non autem rem excepturi voluptatem ullam, aspernatur cum praesentium!</p>
+                    <p>$ 1000 </p>
+                    <a href="#">Agregar al carrito</a>
+                </div><!--info del producto-->
+            </div><!--producto-->         
+            <div>   <!--este div es donde estara cada producto  -->
+                <img src="Imagenes-Ecommerce/producto1.jpg" alt="imagen producto">
+                <div>
+                    <!-- contenido del producto-->
+                    <h3>Producto 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita nesciunt quis, animi fugiat quas culpa, suscipit fugit recusandae asperiores quae. Non autem rem excepturi voluptatem ullam, aspernatur cum praesentium!</p>
+                    <p>$ 1000 </p>
+                    <a href="#">Agregar al carrito</a>
+                </div><!--info del producto-->
+            </div><!--producto-->
+            <div>   <!--este div es donde estara cada producto  -->
+                <img src="Imagenes-Ecommerce/producto1.jpg" alt="imagen producto">
+                <div>
+                    <!-- contenido del producto-->
+                    <h3>Producto 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem expedita nesciunt quis, animi fugiat quas culpa, suscipit fugit recusandae asperiores quae. Non autem rem excepturi voluptatem ullam, aspernatur cum praesentium!</p>
+                    <p>$ 1000 </p>
+                    <a href="#">Agregar al carrito</a>
+                </div><!--info del producto-->
+            </div><!--producto-->       
+        </div><!--fin de lsitado de producto-->
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- _____________________________________FOOTER_________________________________________________________ -->
+
+
+    <!-- no ponemos section porque es simplemente el footer no es un cambio de section importante -->
+    <footer>
+        <div>
+            <h3>Categorias</h3>
+            <nav>
+                <a href="#">Oficina</a>
+                <a href="#">Jardin</a>
+                <a href="#">cochera</a>
+                <a href="#">Dormitorios</a>
+            </nav>
+        </div>
+        <div>
+            <h3>Sobre nosotros</h3>
+            <nav class="navegacion">
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Mision / Vision y Valores</a>
+                <a href="#">Carreras</a>
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Terminos del servicio</a>
+            </nav>
+        </div>
+        <div class="navegacion1">
+            <h3>Soporte</h3>
+            <nav>
+                <a href="#">Preguntas frecuentes</a>
+                <a href="#">Ayuda en linea</a>
+                <a href="#">Confianza y seguridad</a>
+            </nav>
+        </div>
+        <p>Todos los derechos reservados Tienda muebles</p>
+    </footer>
+</body>
+</html>

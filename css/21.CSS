@@ -1,0 +1,47 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+/* se lo aplica a tooodos los 
+elementos  */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* box model */
+
+.sobre-nosotros{
+    background-color: red;
+    width: 200px;
+    
+    /*relleno para que separe el 
+    borde interno   */
+    padding: 25px;
+
+    /* adapta a los pixeles del width */
+    /* box-sizing: border-box; */
+}
+
+.sobre-empresa{
+    background-color:blue;
+    width: 500px;
+    
+    /*relleno para que separe el 
+    borde interno  hacia todos lados
+    100*100*100*100 osea hace 100 hacia 
+    todos lados */
+    padding: 100px;
+
+
+    /* entonces esta propiedad nos ayuda
+    a que no se nos descontrole el diseño 
+    pero imagina  , tendriamos que aplicarselo
+    a tooodos las propiedades 
+    algo asi como el std:cout en c++
+    
+    pues para eso hay una solucion y es un snnipeds
+    un desarrollador llamado paul irish ayudo a resolver 
+    ese problema*/
+    /* box-sizing: border-box; */
+
+}
